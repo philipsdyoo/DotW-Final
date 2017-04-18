@@ -18,6 +18,4 @@ This page will feature the game Tron Light Cycles. There will be multiple bikes 
 
 ### Sketch
 
-GitHub rotates the image for some reason.
-
 ![Sketch](sketch.jpg)
