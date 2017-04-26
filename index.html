@@ -5,16 +5,23 @@
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 	<body>
-		<!-- <a href="space_invaders.html">Space Invaders</a>
-		<a href="pacman.html">Pacman</a>
-		<a href="tron.html">Tron Light Cycles</a> -->
+		<!-- Monitor of arcade cabinet -->
 		<div id="monitor">
-			<div id="screen"></div>
+			<div id="screen">
+				<h1 id="si">Space Invaders</h1>
+				<h1 id="pm">Pacman</h1>
+				<h1 id="tr">Tron Light Cycles</h1>
+			</div>
 		</div>
+		<!-- Control board of arcade cabinet -->
 		<div id="controls">
-			<div id="button1" class="button"></div>
-			<div id="button2" class="button"></div>
-			<div id="button3" class="button"></div>
+			<!-- Joystick -->
+			<div id="stick"></div>
+			<div id="ball"></div>
+			<!-- Buttons -->
+			<a href="space_invaders.html"><div id="button1" class="button"></div></a>
+			<a href="pacman.html"><div id="button2" class="button"></div></a>
+			<a href="tron.html"><div id="button3" class="button"></div></a>
 		</div>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
